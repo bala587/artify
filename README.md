@@ -19,3 +19,38 @@ Features:
 ### Prerequisites
 
 **Node version 18.x.x**
+
+### Cloning the repository
+
+```shell
+git clone https://github.com/bala587/artify
+```
+### Install packages
+
+```shell
+npm install 
+```
+
+### Setup .env file
+
+
+```js
+MONGO_URL = 
+
+GOOGLE_CLIENT_ID=
+GOOGLE_CLIENT_SECRET=
+
+NEXTAUTH_URL=
+NEXTAUTH_SECRET=
+
+NEXT_PUBLIC_STRIPE_SECRET_KEY=
+NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY=
+
+STRIPE_WEBHOOK_SECRET=
+```
+
+### Start the app
+
+```shell
+npm run dev
+```
